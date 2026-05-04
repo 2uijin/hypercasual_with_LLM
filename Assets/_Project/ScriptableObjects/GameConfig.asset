@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5e94d7d698827946add858cf5eb0fd2, type: 3}
+  m_Name: GameConfig
+  m_EditorClassIdentifier: 
+  playerMoveSpeed: 5
+  playerRotateSpeed: 720
+  playerVehicleSpeed: 7
+  rockCarryCapacity: 12
+  rockCarryCapacityDrill: 24
+  rockCarryCapacityVehicle: 40
+  stackItemHeight: 0.15
+  stackSideOffset: 0.18
+  stackRowSize: 1
+  rockRespawnSeconds: 5
+  miningRangeBasic: 1.6
+  miningIntervalPickaxe: 0.45
+  miningIntervalDrill: 0.12
+  miningIntervalVehicle: 0.07
+  machineRockIntakeInterval: 0.15
+  machineSecondsPerHandcuff: 0.6
+  machineMaxShelfStack: 40
+  deskHandcuffDepositInterval: 0.1
+  civilianPurchaseDuration: 0.8
+  handcuffsPerCivilianMin: 1
+  handcuffsPerCivilianMax: 4
+  cashPerHandcuff: 6
+  deskQueueSlots: 6
+  jailBaseCapacity: 20
+  jailExpandedCapacity: 40
+  priceDrill: 20
+  priceVehicle: 50
+  priceWorkers: 50
+  priceJailExpand: 50
+  pricePolice: 50
+  buyPadDrainPerSecond: 25
+  npcMoveSpeed: 2.8
+  workerCountPerPurchase: 3
+  workerMiningInterval: 0.9
+  workerCarryCapacity: 10
+  policeCarrierSpeed: 3.2
+  policeCarryAmount: 6
+  civilianSpawnInterval: 1.5
